@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6fedae975f26cae054d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "rosbridge_test_msgs__py",
+					"jsonFile" : "directory-rosbridge_test_msgs__py-484b8f68bd259f273998.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_test_msgs/rosbridge_test_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rosbridge_test_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rosbridge_test_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rosbridge_test_msgs_egg-1c862e7d118e9b497f1f.json",
+					"name" : "ament_cmake_python_build_rosbridge_test_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rosbridge_test_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rosbridge_test_msgs-8f9f457cd6ad0729621b.json",
+					"name" : "ament_cmake_python_copy_rosbridge_test_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs-48f6c44277085efabb9e.json",
+					"name" : "rosbridge_test_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs__cpp-d041d32e57acd3b050e0.json",
+					"name" : "rosbridge_test_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rosbridge_test_msgs__py::@dde975016a400b92464a",
+					"jsonFile" : "target-rosbridge_test_msgs__py-717d7a8cf0d7dec8aa03.json",
+					"name" : "rosbridge_test_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs__rosidl_generator_c-aa3a0596b8ebc69e25a9.json",
+					"name" : "rosbridge_test_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs__rosidl_generator_py-b2140e39a626f238f29b.json",
+					"name" : "rosbridge_test_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs__rosidl_typesupport_c-7e86d0a533e1a3af1ad1.json",
+					"name" : "rosbridge_test_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs__rosidl_typesupport_c__pyext-38b95c96d0d291559046.json",
+					"name" : "rosbridge_test_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs__rosidl_typesupport_cpp-a6d2710a698d9c0223fd.json",
+					"name" : "rosbridge_test_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs__rosidl_typesupport_fastrtps_c-9f2afafe347a82f5c461.json",
+					"name" : "rosbridge_test_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs__rosidl_typesupport_fastrtps_c__pyext-3a90ac9e5067f423063d.json",
+					"name" : "rosbridge_test_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp-f3e367c43de4376209cc.json",
+					"name" : "rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs__rosidl_typesupport_introspection_c-f39a689b7c7f830ae7b2.json",
+					"name" : "rosbridge_test_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs__rosidl_typesupport_introspection_c__pyext-7d3075766d83449081d0.json",
+					"name" : "rosbridge_test_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs__rosidl_typesupport_introspection_cpp-aad482da1b6d3e292049.json",
+					"name" : "rosbridge_test_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_test_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_test_msgs_uninstall-ea0430e356c1cd162a94.json",
+					"name" : "rosbridge_test_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8b236530ea74ca4a9383.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_test_msgs",
+		"source" : "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_test_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,31 @@
+{
+  "package_name": "rosapi_msgs",
+  "non_idl_tuples": [
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:msg/TypeDef.msg",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/DeleteParam.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/GetActionServers.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/GetParam.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/GetParamNames.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/GetROSVersion.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/GetTime.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/HasParam.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/Interfaces.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/MessageDetails.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/Nodes.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/NodeDetails.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/Publishers.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceNode.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceProviders.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceRequestDetails.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceResponseDetails.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/Services.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/ServicesForType.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceType.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/SetParam.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/Subscribers.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/Topics.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicsAndRawTypes.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicsForType.srv",
+    "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicType.srv"
+  ]
+}

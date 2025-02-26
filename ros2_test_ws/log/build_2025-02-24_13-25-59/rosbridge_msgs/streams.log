@@ -1,0 +1,255 @@
+[0.033s] Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.260s] -- The CXX compiler identification is GNU 11.4.0
+[0.273s] -- Detecting C compiler ABI info
+[0.425s] -- Detecting C compiler ABI info - done
+[0.443s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.443s] -- Detecting C compile features
+[0.444s] -- Detecting C compile features - done
+[0.450s] -- Detecting CXX compiler ABI info
+[0.585s] -- Detecting CXX compiler ABI info - done
+[0.595s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.595s] -- Detecting CXX compile features
+[0.595s] -- Detecting CXX compile features - done
+[0.598s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.575s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.885s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.110s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.162s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.270s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.559s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.887s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.127s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.186s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.190s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.268s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.268s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.269s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.269s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.310s] -- Found PythonExtra: .so  
+[4.403s] -- Configuring done
+[4.495s] -- Generating done
+[4.517s] -- Build files have been written to: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs
+[4.531s] Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs
+[4.532s] Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs -- -j4 -l4
+[4.644s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.676s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.690s] [  5%] Built target ament_cmake_python_copy_rosbridge_msgs
+[5.286s] running egg_info
+[5.376s] creating rosbridge_msgs.egg-info
+[5.376s] writing rosbridge_msgs.egg-info/PKG-INFO
+[5.376s] writing dependency_links to rosbridge_msgs.egg-info/dependency_links.txt
+[5.377s] writing top-level names to rosbridge_msgs.egg-info/top_level.txt
+[5.381s] writing manifest file 'rosbridge_msgs.egg-info/SOURCES.txt'
+[5.655s] reading manifest file 'rosbridge_msgs.egg-info/SOURCES.txt'
+[5.658s] writing manifest file 'rosbridge_msgs.egg-info/SOURCES.txt'
+[5.789s] [  5%] Built target ament_cmake_python_build_rosbridge_msgs_egg
+[5.994s] [  5%] Built target rosbridge_msgs__cpp
+[6.035s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.037s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.040s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.121s] [ 15%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_msgs/msg/detail/connected_client__functions.c.o[0m
+[6.423s] [ 17%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_msgs/msg/detail/connected_clients__functions.c.o[0m
+[6.671s] [ 20%] [32m[1mLinking C shared library librosbridge_msgs__rosidl_generator_c.so[0m
+[6.854s] [ 20%] Built target rosbridge_msgs__rosidl_generator_c
+[6.911s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.413s] [ 25%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_msgs/msg/connected_client__type_support.cpp.o[0m
+[7.687s] [ 28%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_msgs/msg/detail/connected_client__type_support.cpp.o[0m
+[7.700s] [ 30%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_msgs/msg/detail/dds_fastrtps/connected_client__type_support.cpp.o[0m
+[8.566s] [ 33%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_msgs/msg/connected_clients__type_support.cpp.o[0m
+[8.591s] [ 35%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_msgs/msg/detail/connected_client__type_support_c.cpp.o[0m
+[9.438s] [ 38%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_cpp.so[0m
+[9.558s] [ 38%] Built target rosbridge_msgs__rosidl_typesupport_cpp
+[9.576s] [ 41%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_msgs/msg/detail/connected_clients__type_support_c.cpp.o[0m
+[9.683s] [ 43%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_msgs/msg/detail/connected_clients__type_support.cpp.o[0m
+[9.685s] [ 46%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_msgs/msg/detail/dds_fastrtps/connected_clients__type_support.cpp.o[0m
+[10.379s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.707s] [ 51%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.101s] [ 53%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.149s] [ 53%] Built target rosbridge_msgs__rosidl_typesupport_introspection_cpp
+[11.190s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.449s] [ 56%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c
+[11.691s] [ 58%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.884s] [ 61%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_msgs/msg/detail/connected_client__type_support.c.o[0m
+[11.890s] [ 64%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_msgs/msg/detail/connected_clients__type_support.c.o[0m
+[12.011s] [ 64%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_cpp
+[12.080s] [ 66%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_msgs/msg/connected_client__type_support.cpp.o[0m
+[12.081s] [ 69%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_msgs/msg/connected_clients__type_support.cpp.o[0m
+[12.087s] [ 71%] [32m[1mLinking C shared library librosbridge_msgs__rosidl_typesupport_introspection_c.so[0m
+[12.201s] [ 74%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_c.so[0m
+[12.206s] [ 74%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c
+[12.356s] [ 74%] Built target rosbridge_msgs__rosidl_typesupport_c
+[12.417s] [ 74%] Built target rosbridge_msgs
+[12.493s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.830s] [ 76%] Built target rosbridge_msgs__py
+[13.919s] [ 79%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_msgs/msg/_connected_client_s.c.o[0m
+[13.924s] [ 82%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_msgs/msg/_connected_clients_s.c.o[0m
+[14.554s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/librosbridge_msgs__rosidl_generator_py.so[0m
+[14.719s] [ 84%] Built target rosbridge_msgs__rosidl_generator_py
+[14.810s] [ 87%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.834s] [ 89%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.834s] [ 92%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[15.129s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.289s] [ 94%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext
+[15.327s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.428s] [ 97%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c__pyext
+[15.450s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.588s] [100%] Built target rosbridge_msgs__rosidl_typesupport_c__pyext
+[15.634s] Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs -- -j4 -l4
+[15.666s] Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs
+[15.703s] -- Install configuration: ""
+[15.703s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/ament_index/resource_index/rosidl_interfaces/rosbridge_msgs
+[15.704s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[15.704s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[15.704s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/connected_client.h
+[15.704s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[15.704s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__functions.c
+[15.707s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__functions.h
+[15.707s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__struct.h
+[15.708s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__functions.h
+[15.708s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__struct.h
+[15.710s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__type_support.h
+[15.711s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__functions.c
+[15.712s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__type_support.h
+[15.712s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_generator_c__visibility_control.h
+[15.712s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/connected_clients.h
+[15.715s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.sh
+[15.715s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.dsv
+[15.715s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_c.so
+[15.716s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_c.so" to ""
+[15.716s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[15.717s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[15.717s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.717s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[15.717s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_fastrtps_c.h
+[15.719s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_fastrtps_c.h
+[15.719s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_c.so
+[15.724s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[15.724s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[15.726s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[15.727s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/connected_clients.hpp
+[15.727s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/connected_client.hpp
+[15.727s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.727s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[15.728s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__type_support.hpp
+[15.728s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__type_support.hpp
+[15.728s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__builder.hpp
+[15.730s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__traits.hpp
+[15.732s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__builder.hpp
+[15.732s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__struct.hpp
+[15.732s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__struct.hpp
+[15.733s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__traits.hpp
+[15.733s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[15.733s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[15.733s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.733s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[15.734s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_fastrtps_cpp.hpp
+[15.736s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/dds_fastrtps
+[15.736s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_fastrtps_cpp.hpp
+[15.737s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so
+[15.737s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.737s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[15.737s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[15.737s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.737s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[15.737s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__type_support.c
+[15.738s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_introspection_c.h
+[15.739s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_introspection_c.h
+[15.739s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__type_support.c
+[15.739s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_c.so
+[15.741s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_c.so" to ""
+[15.741s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_c.so
+[15.742s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_c.so" to ""
+[15.744s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs
+[15.744s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg
+[15.744s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail
+[15.744s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__type_support.cpp
+[15.744s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_introspection_cpp.hpp
+[15.745s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__type_support.cpp
+[15.745s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/include/rosbridge_msgs/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_introspection_cpp.hpp
+[15.745s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_cpp.so
+[15.748s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[15.748s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_cpp.so
+[15.749s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_cpp.so" to ""
+[15.749s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.sh
+[15.750s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.dsv
+[15.750s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-2.1.0-py3.10.egg-info
+[15.751s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-2.1.0-py3.10.egg-info/SOURCES.txt
+[15.752s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-2.1.0-py3.10.egg-info/dependency_links.txt
+[15.752s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-2.1.0-py3.10.egg-info/PKG-INFO
+[15.752s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs-2.1.0-py3.10.egg-info/top_level.txt
+[15.753s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs
+[15.754s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/__init__.py
+[15.755s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.756s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg
+[15.756s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_client_s.c
+[15.756s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/__init__.py
+[15.756s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_clients.py
+[15.756s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_clients_s.c
+[15.756s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_client.py
+[15.756s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[15.757s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.758s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.758s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/librosbridge_msgs__rosidl_generator_py.so
+[15.758s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.760s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_c.c
+[15.880s] Listing '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs'...
+[15.880s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/__init__.py'...
+[15.881s] Listing '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg'...
+[15.881s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/__init__.py'...
+[15.881s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_client.py'...
+[15.881s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/msg/_connected_clients.py'...
+[15.889s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.889s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.889s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.890s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.891s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.893s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/local/lib/python3.10/dist-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.894s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_py.so
+[15.895s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_py.so" to ""
+[15.896s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.idl
+[15.896s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.idl
+[15.897s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.msg
+[15.897s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.msg
+[15.897s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/ament_index/resource_index/package_run_dependencies/rosbridge_msgs
+[15.898s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/ament_index/resource_index/parent_prefix_path/rosbridge_msgs
+[15.902s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.sh
+[15.902s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.dsv
+[15.902s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.sh
+[15.902s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.dsv
+[15.903s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.bash
+[15.903s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.sh
+[15.903s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.zsh
+[15.904s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.dsv
+[15.904s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv
+[15.904s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/ament_index/resource_index/packages/rosbridge_msgs
+[15.904s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_cExport.cmake
+[15.905s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_cExport-noconfig.cmake
+[15.905s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[15.905s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.905s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_cppExport.cmake
+[15.905s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.907s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.908s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cExport.cmake
+[15.908s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.908s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cExport.cmake
+[15.908s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[15.909s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[15.910s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.911s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cppExport.cmake
+[15.911s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[15.911s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_pyExport.cmake
+[15.912s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/export_rosbridge_msgs__rosidl_generator_pyExport-noconfig.cmake
+[15.912s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake-extras.cmake
+[15.912s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.913s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.913s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[15.913s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[15.919s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.919s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.919s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig.cmake
+[15.919s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig-version.cmake
+[15.920s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/package.xml
+[15.931s] Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs

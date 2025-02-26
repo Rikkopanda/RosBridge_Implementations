@@ -1,0 +1,398 @@
+[0.126s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.126s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79478f96d540>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79478fa53040>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79478fa53040>>)
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.171s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'rosbridge_suite/rosapi' with type 'ros.ament_cmake' and name 'rosapi'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi_msgs) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi_msgs) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi_msgs) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi_msgs) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi_msgs) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi_msgs) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi_msgs) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosapi_msgs) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'rosbridge_suite/rosapi_msgs' with type 'ros.ament_cmake' and name 'rosapi_msgs'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_library) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_library) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_library) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_library) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_library) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_library) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_library) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_library) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_library) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'rosbridge_suite/rosbridge_library' with type 'ros.ament_cmake' and name 'rosbridge_library'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_msgs) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_msgs) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_msgs) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_msgs) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_msgs) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_msgs) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_msgs) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_msgs) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'rosbridge_suite/rosbridge_msgs' with type 'ros.ament_cmake' and name 'rosbridge_msgs'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_server) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_server) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_server) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_server) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_server) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_server) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_server) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_server) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_server) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'rosbridge_suite/rosbridge_server' with type 'ros.ament_cmake' and name 'rosbridge_server'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_suite) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_suite) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_suite) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_suite) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_suite) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_suite) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_suite) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_suite) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_suite) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'rosbridge_suite/rosbridge_suite' with type 'ros.ament_cmake' and name 'rosbridge_suite'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_test_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_test_msgs) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_test_msgs) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_test_msgs) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_test_msgs) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_test_msgs) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_test_msgs) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_test_msgs) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosbridge_suite/rosbridge_test_msgs) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'rosbridge_suite/rosbridge_test_msgs' with type 'ros.ament_cmake' and name 'rosbridge_test_msgs'
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install
+[0.235s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /opt/ros/humble
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'rosapi_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs', 'merge_install': False, 'path': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs', 'merge_install': False, 'path': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_test_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_test_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs', 'merge_install': False, 'path': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_test_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_target' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_clean_cache' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_clean_first' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_force_configure' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library', 'merge_install': False, 'path': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_library', 'symlink_install': False, 'test_result_base': None}
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_force_configure' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'ament_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.285s] DEBUG:colcon.colcon_core.verb:Building package 'rosapi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi', 'merge_install': False, 'path': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi', 'symlink_install': False, 'test_result_base': None}
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.285s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_server', 'merge_install': False, 'path': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_server', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_suite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_suite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_suite', 'merge_install': False, 'path': '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_suite', 'symlink_install': False, 'test_result_base': None}
+[0.286s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.288s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_test_msgs' with build type 'ament_cmake'
+[0.288s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_test_msgs'
+[0.290s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs' with build type 'ament_cmake'
+[0.295s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.301s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_msgs' with build type 'ament_cmake'
+[0.301s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_msgs'
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_test_msgs -DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs
+[0.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs -DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs
+[0.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs
+[4.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_msgs -DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs
+[4.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs -- -j4 -l4
+[5.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs -DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs
+[5.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs -- -j4 -l4
+[6.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_test_msgs -DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs
+[6.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_test_msgs -- -j4 -l4
+[15.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs -- -j4 -l4
+[15.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs
+[16.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_msgs)
+[16.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_msgs
+[16.244s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs' for CMake module files
+[16.252s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs' for CMake config files
+[16.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'cmake_prefix_path')
+[16.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.ps1'
+[16.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.dsv'
+[16.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.sh'
+[16.270s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib'
+[16.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'ld_library_path_lib')
+[16.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.ps1'
+[16.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.dsv'
+[16.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.sh'
+[16.279s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/bin'
+[16.280s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/pkgconfig/rosbridge_msgs.pc'
+[16.281s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/python3.10/site-packages'
+[16.285s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/bin'
+[16.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/package.ps1'
+[16.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv'
+[16.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/package.sh'
+[16.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/package.bash'
+[16.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/package.zsh'
+[16.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/colcon-core/packages/rosbridge_msgs)
+[16.303s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_msgs)
+[16.306s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs' for CMake module files
+[16.310s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs' for CMake config files
+[16.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'cmake_prefix_path')
+[16.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.ps1'
+[16.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.dsv'
+[16.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.sh'
+[16.319s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib'
+[16.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'ld_library_path_lib')
+[16.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.ps1'
+[16.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.dsv'
+[16.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.sh'
+[16.325s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/bin'
+[16.325s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/pkgconfig/rosbridge_msgs.pc'
+[16.325s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/lib/python3.10/site-packages'
+[16.326s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/bin'
+[16.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/package.ps1'
+[16.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv'
+[16.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/package.sh'
+[16.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/package.bash'
+[16.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/rosbridge_msgs/package.zsh'
+[16.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_msgs/share/colcon-core/packages/rosbridge_msgs)
+[85.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs -- -j4 -l4
+[85.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs
+[85.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi_msgs)
+[85.996s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs' for CMake module files
+[85.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs
+[85.998s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs' for CMake config files
+[86.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'cmake_prefix_path')
+[86.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.ps1'
+[86.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.dsv'
+[86.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.sh'
+[86.002s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib'
+[86.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'ld_library_path_lib')
+[86.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.ps1'
+[86.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.dsv'
+[86.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.sh'
+[86.007s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/bin'
+[86.007s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/pkgconfig/rosapi_msgs.pc'
+[86.007s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/python3.10/site-packages'
+[86.008s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/bin'
+[86.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/package.ps1'
+[86.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/package.dsv'
+[86.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/package.sh'
+[86.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/package.bash'
+[86.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/package.zsh'
+[86.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/colcon-core/packages/rosapi_msgs)
+[86.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi_msgs)
+[86.012s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs' for CMake module files
+[86.013s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs' for CMake config files
+[86.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'cmake_prefix_path')
+[86.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.ps1'
+[86.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.dsv'
+[86.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.sh'
+[86.016s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib'
+[86.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'ld_library_path_lib')
+[86.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.ps1'
+[86.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.dsv'
+[86.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.sh'
+[86.019s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/bin'
+[86.019s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/pkgconfig/rosapi_msgs.pc'
+[86.019s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/python3.10/site-packages'
+[86.019s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/bin'
+[86.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/package.ps1'
+[86.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/package.dsv'
+[86.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/package.sh'
+[86.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/package.bash'
+[86.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/package.zsh'
+[86.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/colcon-core/packages/rosapi_msgs)
+[120.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_test_msgs -- -j4 -l4
+[120.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_test_msgs
+[121.196s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_test_msgs)
+[121.197s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs' for CMake module files
+[121.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_test_msgs
+[121.198s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs' for CMake config files
+[121.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'cmake_prefix_path')
+[121.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.ps1'
+[121.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.dsv'
+[121.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.sh'
+[121.202s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/lib'
+[121.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'ld_library_path_lib')
+[121.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.ps1'
+[121.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.dsv'
+[121.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.sh'
+[121.203s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/bin'
+[121.203s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/lib/pkgconfig/rosbridge_test_msgs.pc'
+[121.204s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/lib/python3.10/site-packages'
+[121.204s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/bin'
+[121.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.ps1'
+[121.205s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.dsv'
+[121.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.sh'
+[121.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.bash'
+[121.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.zsh'
+[121.207s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/colcon-core/packages/rosbridge_test_msgs)
+[121.207s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_test_msgs)
+[121.208s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs' for CMake module files
+[121.208s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs' for CMake config files
+[121.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'cmake_prefix_path')
+[121.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.ps1'
+[121.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.dsv'
+[121.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.sh'
+[121.212s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/lib'
+[121.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'ld_library_path_lib')
+[121.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.ps1'
+[121.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.dsv'
+[121.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.sh'
+[121.214s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/bin'
+[121.214s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/lib/pkgconfig/rosbridge_test_msgs.pc'
+[121.214s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/lib/python3.10/site-packages'
+[121.214s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/bin'
+[121.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.ps1'
+[121.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.dsv'
+[121.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.sh'
+[121.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.bash'
+[121.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.zsh'
+[121.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/share/colcon-core/packages/rosbridge_test_msgs)
+[121.220s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_library' with build type 'ament_cmake'
+[121.220s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_library'
+[121.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[121.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[121.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_library': AMENT_PREFIX_PATH=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo_msgs:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_library -DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library
+[123.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosbridge_library' returned '1': AMENT_PREFIX_PATH=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo_msgs:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosbridge_library -DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library
+[124.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_library)
+[124.013s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library' for CMake module files
+[124.014s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library' for CMake config files
+[124.014s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library/bin'
+[124.014s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library/lib/pkgconfig/rosbridge_library.pc'
+[124.015s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library/lib/python3.10/site-packages'
+[124.015s] Level 1:colcon.colcon_core.environment:checking '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library/bin'
+[124.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library/share/rosbridge_library/package.ps1'
+[124.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library/share/rosbridge_library/package.dsv'
+[124.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library/share/rosbridge_library/package.sh'
+[124.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library/share/rosbridge_library/package.bash'
+[124.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library/share/rosbridge_library/package.zsh'
+[124.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosbridge_library/share/colcon-core/packages/rosbridge_library)
+[124.018s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[124.019s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[124.019s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[124.019s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[124.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[124.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[124.026s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[124.042s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[124.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/local_setup.ps1'
+[124.045s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/_local_setup_util_ps1.py'
+[124.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/setup.ps1'
+[124.050s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/local_setup.sh'
+[124.051s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/_local_setup_util_sh.py'
+[124.051s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/setup.sh'
+[124.053s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/local_setup.bash'
+[124.053s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/setup.bash'
+[124.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/local_setup.zsh'
+[124.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/setup.zsh'

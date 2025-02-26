@@ -1,0 +1,1018 @@
+[0.026s] Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs -DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs
+[0.140s] -- The C compiler identification is GNU 11.4.0
+[0.252s] -- The CXX compiler identification is GNU 11.4.0
+[0.265s] -- Detecting C compiler ABI info
+[0.381s] -- Detecting C compiler ABI info - done
+[0.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.398s] -- Detecting C compile features
+[0.398s] -- Detecting C compile features - done
+[0.405s] -- Detecting CXX compiler ABI info
+[0.549s] -- Detecting CXX compiler ABI info - done
+[0.566s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.567s] -- Detecting CXX compile features
+[0.567s] -- Detecting CXX compile features - done
+[0.571s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.438s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.891s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.116s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.170s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.277s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.566s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.391s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.393s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.452s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.452s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.452s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.452s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.489s] -- Found PythonExtra: .so  
+[4.582s] -- Configuring done
+[4.889s] -- Generating done
+[4.921s] -- Build files have been written to: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs
+[4.944s] Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/rosbridge_suite/rosapi_msgs -DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs
+[4.944s] Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs -- -j4 -l4
+[5.116s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.144s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.197s] [  1%] Built target ament_cmake_python_copy_rosapi_msgs
+[5.763s] running egg_info
+[5.804s] creating rosapi_msgs.egg-info
+[5.804s] writing rosapi_msgs.egg-info/PKG-INFO
+[5.805s] writing dependency_links to rosapi_msgs.egg-info/dependency_links.txt
+[5.805s] writing top-level names to rosapi_msgs.egg-info/top_level.txt
+[5.806s] writing manifest file 'rosapi_msgs.egg-info/SOURCES.txt'
+[6.083s] reading manifest file 'rosapi_msgs.egg-info/SOURCES.txt'
+[6.088s] writing manifest file 'rosapi_msgs.egg-info/SOURCES.txt'
+[6.355s] [  1%] Built target ament_cmake_python_build_rosapi_msgs_egg
+[14.278s] [  1%] Built target rosapi_msgs__cpp
+[14.315s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.340s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.341s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.298s] [  4%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/msg/detail/type_def__functions.c.o[0m
+[17.390s] [  5%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/delete_param__functions.c.o[0m
+[17.499s] [  5%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_action_servers__functions.c.o[0m
+[17.607s] [  6%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_param__functions.c.o[0m
+[17.724s] [  6%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_param_names__functions.c.o[0m
+[17.837s] [  6%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_ros_version__functions.c.o[0m
+[17.950s] [  7%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_time__functions.c.o[0m
+[18.060s] [  7%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/has_param__functions.c.o[0m
+[18.238s] [  8%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/interfaces__functions.c.o[0m
+[18.468s] [  8%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/message_details__functions.c.o[0m
+[18.675s] [  9%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/nodes__functions.c.o[0m
+[18.723s] [  9%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/msg/type_def__type_support.cpp.o[0m
+[18.895s] [  9%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/node_details__functions.c.o[0m
+[19.168s] [  9%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/publishers__functions.c.o[0m
+[19.431s] [ 10%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_node__functions.c.o[0m
+[19.484s] [ 10%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/delete_param__type_support.cpp.o[0m
+[19.619s] [ 10%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_providers__functions.c.o[0m
+[19.880s] [ 11%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_request_details__functions.c.o[0m
+[20.115s] [ 11%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_response_details__functions.c.o[0m
+[20.406s] [ 12%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/services__functions.c.o[0m
+[20.646s] [ 12%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/services_for_type__functions.c.o[0m
+[20.989s] [ 12%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_type__functions.c.o[0m
+[21.091s] [ 13%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_action_servers__type_support.cpp.o[0m
+[21.153s] [ 13%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/msg/detail/type_def__type_support.cpp.o[0m
+[21.186s] [ 14%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/set_param__functions.c.o[0m
+[21.505s] [ 14%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/subscribers__functions.c.o[0m
+[21.741s] [ 15%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/topics__functions.c.o[0m
+[22.169s] [ 15%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/topics_and_raw_types__functions.c.o[0m
+[22.466s] [ 16%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/topics_for_type__functions.c.o[0m
+[22.811s] [ 16%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/topic_type__functions.c.o[0m
+[22.815s] [ 16%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_param__type_support.cpp.o[0m
+[22.991s] [ 16%] [32m[1mLinking C shared library librosapi_msgs__rosidl_generator_c.so[0m
+[23.233s] [ 16%] Built target rosapi_msgs__rosidl_generator_c
+[23.281s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[23.477s] [ 18%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/delete_param__type_support.cpp.o[0m
+[23.877s] [ 18%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/msg/detail/dds_fastrtps/type_def__type_support.cpp.o[0m
+[24.543s] [ 19%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_param_names__type_support.cpp.o[0m
+[25.691s] [ 20%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/delete_param__type_support.cpp.o[0m
+[25.830s] [ 20%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_action_servers__type_support.cpp.o[0m
+[26.048s] [ 20%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_ros_version__type_support.cpp.o[0m
+[27.341s] [ 20%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_action_servers__type_support.cpp.o[0m
+[27.716s] [ 21%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_time__type_support.cpp.o[0m
+[28.481s] [ 21%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/has_param__type_support.cpp.o[0m
+[28.646s] [ 22%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_param__type_support.cpp.o[0m
+[29.432s] [ 22%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_param__type_support.cpp.o[0m
+[29.650s] [ 22%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/interfaces__type_support.cpp.o[0m
+[30.171s] [ 22%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_param_names__type_support.cpp.o[0m
+[30.877s] [ 23%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/message_details__type_support.cpp.o[0m
+[31.219s] [ 24%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_param_names__type_support.cpp.o[0m
+[31.735s] [ 24%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/msg/detail/type_def__type_support_c.cpp.o[0m
+[31.885s] [ 24%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/nodes__type_support.cpp.o[0m
+[31.984s] [ 24%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_ros_version__type_support.cpp.o[0m
+[32.692s] [ 25%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/delete_param__type_support_c.cpp.o[0m
+[33.165s] [ 25%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_ros_version__type_support.cpp.o[0m
+[33.170s] [ 26%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/node_details__type_support.cpp.o[0m
+[33.497s] [ 27%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_time__type_support.cpp.o[0m
+[34.483s] [ 27%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_action_servers__type_support_c.cpp.o[0m
+[34.546s] [ 27%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/publishers__type_support.cpp.o[0m
+[34.864s] [ 27%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/has_param__type_support.cpp.o[0m
+[34.876s] [ 28%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_time__type_support.cpp.o[0m
+[35.670s] [ 29%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_node__type_support.cpp.o[0m
+[35.957s] [ 29%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_param__type_support_c.cpp.o[0m
+[36.575s] [ 29%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_providers__type_support.cpp.o[0m
+[36.704s] [ 30%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/interfaces__type_support.cpp.o[0m
+[36.804s] [ 30%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/has_param__type_support.cpp.o[0m
+[37.701s] [ 31%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_request_details__type_support.cpp.o[0m
+[37.709s] [ 32%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_param_names__type_support_c.cpp.o[0m
+[38.522s] [ 33%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/interfaces__type_support.cpp.o[0m
+[38.542s] [ 33%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/message_details__type_support.cpp.o[0m
+[38.739s] [ 33%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_ros_version__type_support_c.cpp.o[0m
+[38.984s] [ 33%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_response_details__type_support.cpp.o[0m
+[40.126s] [ 33%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/services__type_support.cpp.o[0m
+[40.409s] [ 34%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_time__type_support_c.cpp.o[0m
+[40.625s] [ 34%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/message_details__type_support.cpp.o[0m
+[41.261s] [ 35%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/nodes__type_support.cpp.o[0m
+[41.304s] [ 36%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/services_for_type__type_support.cpp.o[0m
+[42.336s] [ 36%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/has_param__type_support_c.cpp.o[0m
+[42.519s] [ 36%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/node_details__type_support.cpp.o[0m
+[42.743s] [ 36%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_type__type_support.cpp.o[0m
+[43.236s] [ 36%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/nodes__type_support.cpp.o[0m
+[44.214s] [ 37%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/interfaces__type_support_c.cpp.o[0m
+[44.452s] [ 38%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/set_param__type_support.cpp.o[0m
+[45.217s] [ 39%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/node_details__type_support.cpp.o[0m
+[45.745s] [ 39%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/subscribers__type_support.cpp.o[0m
+[45.746s] [ 39%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/publishers__type_support.cpp.o[0m
+[46.726s] [ 39%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/message_details__type_support_c.cpp.o[0m
+[46.952s] [ 39%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/publishers__type_support.cpp.o[0m
+[47.279s] [ 40%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/topics__type_support.cpp.o[0m
+[47.562s] [ 41%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_node__type_support.cpp.o[0m
+[48.492s] [ 41%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_providers__type_support.cpp.o[0m
+[49.525s] [ 41%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/topics_and_raw_types__type_support.cpp.o[0m
+[49.578s] [ 41%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/nodes__type_support_c.cpp.o[0m
+[50.452s] [ 42%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_node__type_support.cpp.o[0m
+[50.625s] [ 43%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/node_details__type_support_c.cpp.o[0m
+[51.316s] [ 43%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/topics_for_type__type_support.cpp.o[0m
+[51.561s] [ 44%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_request_details__type_support.cpp.o[0m
+[51.820s] [ 44%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_providers__type_support.cpp.o[0m
+[52.080s] [ 44%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/publishers__type_support_c.cpp.o[0m
+[52.165s] [ 45%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/topic_type__type_support.cpp.o[0m
+[53.223s] [ 45%] [32m[1mLinking CXX shared library librosapi_msgs__rosidl_typesupport_cpp.so[0m
+[53.317s] [ 46%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_node__type_support_c.cpp.o[0m
+[53.422s] [ 47%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_request_details__type_support.cpp.o[0m
+[53.431s] [ 47%] Built target rosapi_msgs__rosidl_typesupport_cpp
+[53.744s] [ 47%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_response_details__type_support.cpp.o[0m
+[54.613s] [ 47%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_response_details__type_support.cpp.o[0m
+[54.692s] [ 47%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_providers__type_support_c.cpp.o[0m
+[55.461s] [ 48%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_request_details__type_support_c.cpp.o[0m
+[55.561s] [ 49%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/services__type_support.cpp.o[0m
+[56.358s] [ 49%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_response_details__type_support_c.cpp.o[0m
+[56.543s] [ 49%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/services__type_support.cpp.o[0m
+[57.499s] [ 49%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/services_for_type__type_support.cpp.o[0m
+[57.890s] [ 50%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/services__type_support_c.cpp.o[0m
+[58.222s] [ 51%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/services_for_type__type_support.cpp.o[0m
+[58.706s] [ 51%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_type__type_support.cpp.o[0m
+[59.167s] [ 51%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/services_for_type__type_support_c.cpp.o[0m
+[59.611s] [ 52%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/set_param__type_support.cpp.o[0m
+[59.847s] [ 52%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_type__type_support.cpp.o[0m
+[60.068s] [ 52%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_type__type_support_c.cpp.o[0m
+[60.638s] [ 52%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/subscribers__type_support.cpp.o[0m
+[60.738s] [ 53%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/set_param__type_support.cpp.o[0m
+[60.820s] [ 54%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/set_param__type_support_c.cpp.o[0m
+[61.572s] [ 54%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/subscribers__type_support_c.cpp.o[0m
+[61.651s] [ 54%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/subscribers__type_support.cpp.o[0m
+[61.861s] [ 55%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/topics__type_support.cpp.o[0m
+[62.322s] [ 56%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/topics__type_support_c.cpp.o[0m
+[62.857s] [ 57%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/topics__type_support.cpp.o[0m
+[63.256s] [ 57%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/topics_and_raw_types__type_support_c.cpp.o[0m
+[63.275s] [ 57%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.cpp.o[0m
+[64.017s] [ 57%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/topics_and_raw_types__type_support.cpp.o[0m
+[64.535s] [ 58%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/topics_for_type__type_support_c.cpp.o[0m
+[64.636s] [ 59%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/topics_for_type__type_support.cpp.o[0m
+[65.400s] [ 60%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/topics_for_type__type_support.cpp.o[0m
+[66.079s] [ 60%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/topic_type__type_support_c.cpp.o[0m
+[66.118s] [ 60%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/topic_type__type_support.cpp.o[0m
+[66.816s] [ 60%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/topic_type__type_support.cpp.o[0m
+[66.970s] [ 60%] [32m[1mLinking CXX shared library librosapi_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[67.016s] [ 61%] [32m[1mLinking CXX shared library librosapi_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[67.275s] [ 61%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_c
+[67.333s] [ 61%] Built target rosapi_msgs__rosidl_typesupport_introspection_cpp
+[67.654s] [ 61%] [32m[1mLinking CXX shared library librosapi_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[67.903s] [ 61%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_cpp
+[67.925s] [ 62%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[69.749s] [ 62%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/msg/type_def__type_support.cpp.o[0m
+[69.788s] [ 63%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_action_servers__type_support.cpp.o[0m
+[69.828s] [ 63%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_param__type_support.cpp.o[0m
+[69.869s] [ 64%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_param_names__type_support.cpp.o[0m
+[69.915s] [ 64%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_ros_version__type_support.cpp.o[0m
+[69.957s] [ 65%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_time__type_support.cpp.o[0m
+[70.003s] [ 65%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/has_param__type_support.cpp.o[0m
+[70.044s] [ 66%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/interfaces__type_support.cpp.o[0m
+[70.089s] [ 66%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/message_details__type_support.cpp.o[0m
+[70.131s] [ 66%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/nodes__type_support.cpp.o[0m
+[70.172s] [ 67%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/node_details__type_support.cpp.o[0m
+[70.212s] [ 67%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/publishers__type_support.cpp.o[0m
+[70.251s] [ 68%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_node__type_support.cpp.o[0m
+[70.294s] [ 68%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_providers__type_support.cpp.o[0m
+[70.334s] [ 69%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_request_details__type_support.cpp.o[0m
+[70.378s] [ 69%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_response_details__type_support.cpp.o[0m
+[70.421s] [ 69%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/services__type_support.cpp.o[0m
+[70.463s] [ 70%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/services_for_type__type_support.cpp.o[0m
+[70.507s] [ 70%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_type__type_support.cpp.o[0m
+[70.548s] [ 71%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/set_param__type_support.cpp.o[0m
+[70.591s] [ 71%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/subscribers__type_support.cpp.o[0m
+[70.634s] [ 72%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/topics__type_support.cpp.o[0m
+[70.675s] [ 72%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/topics_and_raw_types__type_support.cpp.o[0m
+[70.715s] [ 72%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/topics_for_type__type_support.cpp.o[0m
+[70.754s] [ 73%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/topic_type__type_support.cpp.o[0m
+[70.795s] [ 73%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/delete_param__type_support.cpp.o[0m
+[70.837s] [ 73%] [32m[1mLinking CXX shared library librosapi_msgs__rosidl_typesupport_c.so[0m
+[70.905s] [ 73%] Built target rosapi_msgs__rosidl_typesupport_c
+[70.921s] [ 74%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[73.216s] [ 74%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/msg/detail/type_def__type_support.c.o[0m
+[73.275s] [ 75%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_param__type_support.c.o[0m
+[73.323s] [ 75%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_param_names__type_support.c.o[0m
+[73.368s] [ 75%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_ros_version__type_support.c.o[0m
+[73.415s] [ 76%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_time__type_support.c.o[0m
+[73.459s] [ 76%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/has_param__type_support.c.o[0m
+[73.506s] [ 77%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/interfaces__type_support.c.o[0m
+[73.553s] [ 77%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/message_details__type_support.c.o[0m
+[73.603s] [ 78%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/nodes__type_support.c.o[0m
+[73.650s] [ 78%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/node_details__type_support.c.o[0m
+[73.704s] [ 78%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/publishers__type_support.c.o[0m
+[73.752s] [ 79%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_node__type_support.c.o[0m
+[73.798s] [ 79%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_providers__type_support.c.o[0m
+[73.845s] [ 80%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_request_details__type_support.c.o[0m
+[73.896s] [ 80%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_response_details__type_support.c.o[0m
+[73.945s] [ 81%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/services__type_support.c.o[0m
+[73.995s] [ 81%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/services_for_type__type_support.c.o[0m
+[74.042s] [ 81%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_type__type_support.c.o[0m
+[74.093s] [ 82%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/set_param__type_support.c.o[0m
+[74.145s] [ 82%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/subscribers__type_support.c.o[0m
+[74.202s] [ 83%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/topics__type_support.c.o[0m
+[74.258s] [ 83%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.c.o[0m
+[74.320s] [ 84%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/topics_for_type__type_support.c.o[0m
+[74.371s] [ 84%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/topic_type__type_support.c.o[0m
+[74.423s] [ 84%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_action_servers__type_support.c.o[0m
+[74.475s] [ 85%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/delete_param__type_support.c.o[0m
+[74.528s] [ 86%] [32m[1mLinking C shared library librosapi_msgs__rosidl_typesupport_introspection_c.so[0m
+[74.583s] [ 86%] Built target rosapi_msgs__rosidl_typesupport_introspection_c
+[74.611s] [ 86%] Built target rosapi_msgs
+[74.640s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[80.100s] [ 86%] Built target rosapi_msgs__py
+[80.128s] [ 87%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/msg/_type_def_s.c.o[0m
+[80.285s] [ 87%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_get_param_s.c.o[0m
+[80.438s] [ 88%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_get_param_names_s.c.o[0m
+[80.582s] [ 88%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_get_ros_version_s.c.o[0m
+[80.714s] [ 89%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_get_time_s.c.o[0m
+[80.854s] [ 89%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_has_param_s.c.o[0m
+[80.995s] [ 89%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_interfaces_s.c.o[0m
+[81.134s] [ 90%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_message_details_s.c.o[0m
+[81.273s] [ 90%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_nodes_s.c.o[0m
+[81.421s] [ 91%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_node_details_s.c.o[0m
+[81.574s] [ 91%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_publishers_s.c.o[0m
+[81.712s] [ 92%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_service_node_s.c.o[0m
+[81.850s] [ 92%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_service_providers_s.c.o[0m
+[82.019s] [ 92%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_service_request_details_s.c.o[0m
+[82.156s] [ 93%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_service_response_details_s.c.o[0m
+[82.296s] [ 93%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_services_s.c.o[0m
+[82.446s] [ 94%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_services_for_type_s.c.o[0m
+[82.588s] [ 94%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_service_type_s.c.o[0m
+[82.721s] [ 95%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_set_param_s.c.o[0m
+[82.864s] [ 95%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_subscribers_s.c.o[0m
+[83.010s] [ 95%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_topics_s.c.o[0m
+[83.153s] [ 96%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_topics_and_raw_types_s.c.o[0m
+[83.300s] [ 96%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_topics_for_type_s.c.o[0m
+[83.448s] [ 97%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_topic_type_s.c.o[0m
+[83.584s] [ 98%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_get_action_servers_s.c.o[0m
+[83.723s] [ 98%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosapi_msgs/srv/_delete_param_s.c.o[0m
+[83.862s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/rosapi_msgs/librosapi_msgs__rosidl_generator_py.so[0m
+[83.936s] [ 98%] Built target rosapi_msgs__rosidl_generator_py
+[83.965s] [ 99%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[84.311s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[84.367s] [ 99%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_c__pyext
+[84.398s] [100%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[84.769s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[84.827s] [100%] Built target rosapi_msgs__rosidl_typesupport_c__pyext
+[84.856s] [100%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[85.198s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[85.257s] [100%] Built target rosapi_msgs__rosidl_typesupport_introspection_c__pyext
+[85.275s] Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs -- -j4 -l4
+[85.279s] Invoking command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs
+[85.290s] -- Install configuration: ""
+[85.290s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/ament_index/resource_index/rosidl_interfaces/rosapi_msgs
+[85.290s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs
+[85.291s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg
+[85.291s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/type_def.h
+[85.291s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail
+[85.291s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__functions.c
+[85.291s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__functions.h
+[85.292s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__struct.h
+[85.292s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__type_support.h
+[85.292s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/rosidl_generator_c__visibility_control.h
+[85.292s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv
+[85.292s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_type.h
+[85.292s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/services.h
+[85.293s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/message_details.h
+[85.293s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topics_for_type.h
+[85.293s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_action_servers.h
+[85.293s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/subscribers.h
+[85.293s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_node.h
+[85.294s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_ros_version.h
+[85.294s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_time.h
+[85.294s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/delete_param.h
+[85.294s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/services_for_type.h
+[85.294s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_param.h
+[85.294s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/node_details.h
+[85.295s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_param_names.h
+[85.295s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_request_details.h
+[85.295s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topics.h
+[85.295s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/interfaces.h
+[85.295s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/has_param.h
+[85.295s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_response_details.h
+[85.296s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topic_type.h
+[85.296s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/nodes.h
+[85.296s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail
+[85.296s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__functions.h
+[85.296s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__functions.c
+[85.297s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__functions.c
+[85.297s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__functions.c
+[85.297s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__struct.h
+[85.297s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__functions.h
+[85.298s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__functions.c
+[85.298s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__type_support.h
+[85.298s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__functions.h
+[85.298s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__functions.h
+[85.298s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__functions.h
+[85.298s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__functions.h
+[85.299s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__functions.c
+[85.299s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__struct.h
+[85.299s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__struct.h
+[85.299s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__type_support.h
+[85.299s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__type_support.h
+[85.300s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__struct.h
+[85.300s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__struct.h
+[85.300s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__functions.c
+[85.300s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__functions.h
+[85.300s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__functions.c
+[85.301s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__struct.h
+[85.301s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__functions.h
+[85.301s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__type_support.h
+[85.301s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__type_support.h
+[85.301s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__struct.h
+[85.301s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__functions.c
+[85.302s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__functions.h
+[85.303s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__functions.h
+[85.303s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__type_support.h
+[85.303s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__type_support.h
+[85.303s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__functions.c
+[85.303s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__functions.h
+[85.303s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__struct.h
+[85.304s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__functions.h
+[85.304s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__functions.h
+[85.304s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__struct.h
+[85.304s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__type_support.h
+[85.304s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__struct.h
+[85.305s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__type_support.h
+[85.305s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__struct.h
+[85.305s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__functions.c
+[85.305s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__struct.h
+[85.306s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__type_support.h
+[85.307s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__functions.c
+[85.307s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__functions.h
+[85.307s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__type_support.h
+[85.308s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__functions.h
+[85.308s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__struct.h
+[85.308s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__functions.c
+[85.308s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__functions.c
+[85.308s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__type_support.h
+[85.308s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__functions.h
+[85.309s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__type_support.h
+[85.309s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__type_support.h
+[85.309s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__struct.h
+[85.310s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__struct.h
+[85.311s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__functions.h
+[85.311s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__functions.c
+[85.311s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__type_support.h
+[85.311s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__functions.h
+[85.311s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__functions.h
+[85.311s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__type_support.h
+[85.312s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__functions.c
+[85.312s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.h
+[85.312s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__type_support.h
+[85.312s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__functions.h
+[85.312s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__type_support.h
+[85.313s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__struct.h
+[85.313s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__functions.c
+[85.313s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__functions.c
+[85.313s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__struct.h
+[85.314s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__functions.h
+[85.314s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__functions.c
+[85.314s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__struct.h
+[85.314s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__struct.h
+[85.315s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__functions.c
+[85.315s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__functions.c
+[85.315s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__functions.h
+[85.315s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__type_support.h
+[85.315s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__type_support.h
+[85.316s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__type_support.h
+[85.316s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__functions.c
+[85.316s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__functions.h
+[85.316s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__functions.h
+[85.316s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__struct.h
+[85.317s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__functions.c
+[85.317s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__functions.c
+[85.317s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__struct.h
+[85.317s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__type_support.h
+[85.317s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__struct.h
+[85.318s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__struct.h
+[85.318s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__functions.c
+[85.318s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__functions.c
+[85.318s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__type_support.h
+[85.318s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__struct.h
+[85.319s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__struct.h
+[85.319s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__functions.h
+[85.319s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__type_support.h
+[85.319s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/set_param.h
+[85.320s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topics_and_raw_types.h
+[85.343s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_providers.h
+[85.344s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/publishers.h
+[85.344s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/environment/library_path.sh
+[85.344s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/environment/library_path.dsv
+[85.345s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_generator_c.so
+[85.346s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_generator_c.so" to ""
+[85.346s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs
+[85.346s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg
+[85.346s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[85.346s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail
+[85.346s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_fastrtps_c.h
+[85.347s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv
+[85.347s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail
+[85.347s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_fastrtps_c.h
+[85.347s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_fastrtps_c.h
+[85.347s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_fastrtps_c.h
+[85.347s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_fastrtps_c.h
+[85.348s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_fastrtps_c.h
+[85.348s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_fastrtps_c.h
+[85.348s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_fastrtps_c.h
+[85.348s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_fastrtps_c.h
+[85.348s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_fastrtps_c.h
+[85.348s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__rosidl_typesupport_fastrtps_c.h
+[85.349s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_fastrtps_c.h
+[85.349s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_fastrtps_c.h
+[85.349s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__rosidl_typesupport_fastrtps_c.h
+[85.349s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_fastrtps_c.h
+[85.349s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_fastrtps_c.h
+[85.350s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__rosidl_typesupport_fastrtps_c.h
+[85.350s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_fastrtps_c.h
+[85.350s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_fastrtps_c.h
+[85.350s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_fastrtps_c.h
+[85.350s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_fastrtps_c.h
+[85.350s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_fastrtps_c.h
+[85.351s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_fastrtps_c.h
+[85.351s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_fastrtps_c.h
+[85.351s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_fastrtps_c.h
+[85.351s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_fastrtps_c.h
+[85.352s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_fastrtps_c.so
+[85.353s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[85.353s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs
+[85.353s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg
+[85.353s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[85.354s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail
+[85.354s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__type_support.hpp
+[85.354s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__builder.hpp
+[85.354s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__traits.hpp
+[85.354s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__struct.hpp
+[85.354s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/type_def.hpp
+[85.355s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv
+[85.355s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_response_details.hpp
+[85.355s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/services_for_type.hpp
+[85.355s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topic_type.hpp
+[85.355s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/services.hpp
+[85.355s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_providers.hpp
+[85.356s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_time.hpp
+[85.356s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/message_details.hpp
+[85.356s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/subscribers.hpp
+[85.356s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/interfaces.hpp
+[85.356s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/delete_param.hpp
+[85.356s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_ros_version.hpp
+[85.356s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_param_names.hpp
+[85.357s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topics_and_raw_types.hpp
+[85.357s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/set_param.hpp
+[85.357s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/publishers.hpp
+[85.357s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_request_details.hpp
+[85.357s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail
+[85.358s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__builder.hpp
+[85.358s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__builder.hpp
+[85.358s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__struct.hpp
+[85.358s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__struct.hpp
+[85.358s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__struct.hpp
+[85.358s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__builder.hpp
+[85.359s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__struct.hpp
+[85.359s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__traits.hpp
+[85.359s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__type_support.hpp
+[85.359s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__struct.hpp
+[85.359s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__traits.hpp
+[85.359s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__traits.hpp
+[85.360s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__builder.hpp
+[85.360s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__struct.hpp
+[85.360s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__struct.hpp
+[85.360s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__type_support.hpp
+[85.361s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__struct.hpp
+[85.361s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__builder.hpp
+[85.361s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__builder.hpp
+[85.361s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__traits.hpp
+[85.361s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__struct.hpp
+[85.361s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__struct.hpp
+[85.362s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__type_support.hpp
+[85.362s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__traits.hpp
+[85.362s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__type_support.hpp
+[85.362s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__type_support.hpp
+[85.362s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__traits.hpp
+[85.362s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__builder.hpp
+[85.363s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__type_support.hpp
+[85.363s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__type_support.hpp
+[85.363s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__type_support.hpp
+[85.363s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__type_support.hpp
+[85.363s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__type_support.hpp
+[85.364s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__traits.hpp
+[85.364s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__traits.hpp
+[85.364s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__builder.hpp
+[85.364s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__struct.hpp
+[85.364s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__struct.hpp
+[85.365s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__builder.hpp
+[85.370s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__traits.hpp
+[85.371s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__traits.hpp
+[85.371s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__builder.hpp
+[85.381s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__type_support.hpp
+[85.382s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__type_support.hpp
+[85.382s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__traits.hpp
+[85.382s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__type_support.hpp
+[85.382s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__struct.hpp
+[85.382s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__builder.hpp
+[85.382s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__builder.hpp
+[85.383s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__traits.hpp
+[85.383s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__struct.hpp
+[85.383s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__builder.hpp
+[85.383s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__type_support.hpp
+[85.383s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__builder.hpp
+[85.406s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__struct.hpp
+[85.417s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__struct.hpp
+[85.417s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__builder.hpp
+[85.428s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__type_support.hpp
+[85.428s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__traits.hpp
+[85.444s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__type_support.hpp
+[85.444s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__builder.hpp
+[85.444s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__type_support.hpp
+[85.445s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__type_support.hpp
+[85.445s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__traits.hpp
+[85.445s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__type_support.hpp
+[85.445s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__type_support.hpp
+[85.446s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__type_support.hpp
+[85.446s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__struct.hpp
+[85.456s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__traits.hpp
+[85.456s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__struct.hpp
+[85.456s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__builder.hpp
+[85.456s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__traits.hpp
+[85.456s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__struct.hpp
+[85.457s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__traits.hpp
+[85.457s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__traits.hpp
+[85.457s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__builder.hpp
+[85.457s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__type_support.hpp
+[85.457s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__struct.hpp
+[85.458s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__traits.hpp
+[85.458s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__struct.hpp
+[85.458s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__struct.hpp
+[85.458s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__struct.hpp
+[85.458s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__traits.hpp
+[85.459s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__struct.hpp
+[85.459s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.hpp
+[85.459s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__traits.hpp
+[85.459s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__traits.hpp
+[85.459s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__builder.hpp
+[85.460s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__type_support.hpp
+[85.460s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__traits.hpp
+[85.460s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__traits.hpp
+[85.460s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__builder.hpp
+[85.461s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__struct.hpp
+[85.461s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__traits.hpp
+[85.461s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__builder.hpp
+[85.461s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__builder.hpp
+[85.461s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__builder.hpp
+[85.462s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__builder.hpp
+[85.462s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__builder.hpp
+[85.462s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__type_support.hpp
+[85.462s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_node.hpp
+[85.463s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/node_details.hpp
+[85.463s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topics_for_type.hpp
+[85.463s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/topics.hpp
+[85.463s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/nodes.hpp
+[85.463s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/service_type.hpp
+[85.463s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_action_servers.hpp
+[85.464s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/has_param.hpp
+[85.464s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/get_param.hpp
+[85.464s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs
+[85.464s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg
+[85.465s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[85.465s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail
+[85.465s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_fastrtps_cpp.hpp
+[85.465s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/dds_fastrtps
+[85.465s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv
+[85.465s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail
+[85.466s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__rosidl_typesupport_fastrtps_cpp.hpp
+[85.466s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__rosidl_typesupport_fastrtps_cpp.hpp
+[85.466s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_fastrtps_cpp.hpp
+[85.466s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_fastrtps_cpp.hpp
+[85.466s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_fastrtps_cpp.hpp
+[85.466s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_fastrtps_cpp.hpp
+[85.467s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/dds_fastrtps
+[85.467s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_fastrtps_cpp.hpp
+[85.467s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_fastrtps_cpp.hpp
+[85.467s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_fastrtps_cpp.hpp
+[85.468s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__rosidl_typesupport_fastrtps_cpp.hpp
+[85.468s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_fastrtps_cpp.hpp
+[85.468s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_fastrtps_cpp.hpp
+[85.468s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_fastrtps_cpp.hpp
+[85.468s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_fastrtps_cpp.hpp
+[85.469s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_fastrtps_cpp.hpp
+[85.469s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_fastrtps_cpp.hpp
+[85.469s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_fastrtps_cpp.hpp
+[85.469s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_fastrtps_cpp.hpp
+[85.470s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_fastrtps_cpp.hpp
+[85.470s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_fastrtps_cpp.hpp
+[85.470s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_fastrtps_cpp.hpp
+[85.470s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_fastrtps_cpp.hpp
+[85.470s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_fastrtps_cpp.hpp
+[85.471s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_fastrtps_cpp.hpp
+[85.471s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_fastrtps_cpp.hpp
+[85.471s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_fastrtps_cpp.so
+[85.473s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[85.473s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs
+[85.473s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg
+[85.473s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[85.473s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail
+[85.474s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__type_support.c
+[85.474s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_introspection_c.h
+[85.474s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv
+[85.474s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail
+[85.474s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_introspection_c.h
+[85.474s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__type_support.c
+[85.475s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_introspection_c.h
+[85.475s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__rosidl_typesupport_introspection_c.h
+[85.475s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__type_support.c
+[85.475s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_introspection_c.h
+[85.475s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_introspection_c.h
+[85.475s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__type_support.c
+[85.476s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_introspection_c.h
+[85.476s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__type_support.c
+[85.476s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_introspection_c.h
+[85.476s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__rosidl_typesupport_introspection_c.h
+[85.477s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__type_support.c
+[85.477s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__type_support.c
+[85.477s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.c
+[85.477s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_introspection_c.h
+[85.477s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__type_support.c
+[85.478s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__type_support.c
+[85.478s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_introspection_c.h
+[85.478s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__type_support.c
+[85.478s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_introspection_c.h
+[85.478s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_introspection_c.h
+[85.479s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__rosidl_typesupport_introspection_c.h
+[85.479s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__type_support.c
+[85.479s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__type_support.c
+[85.479s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__type_support.c
+[85.480s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__type_support.c
+[85.480s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_introspection_c.h
+[85.480s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_introspection_c.h
+[85.480s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__type_support.c
+[85.481s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__type_support.c
+[85.481s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_introspection_c.h
+[85.481s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_introspection_c.h
+[85.481s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_introspection_c.h
+[85.481s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__type_support.c
+[85.482s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_introspection_c.h
+[85.482s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__type_support.c
+[85.482s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_introspection_c.h
+[85.482s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__type_support.c
+[85.483s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__type_support.c
+[85.483s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__type_support.c
+[85.483s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_introspection_c.h
+[85.483s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_introspection_c.h
+[85.483s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__type_support.c
+[85.484s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__type_support.c
+[85.484s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_introspection_c.h
+[85.484s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__type_support.c
+[85.484s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_introspection_c.h
+[85.485s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_introspection_c.h
+[85.485s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__type_support.c
+[85.485s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_c.so
+[85.486s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_c.so" to ""
+[85.487s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_c.so
+[85.487s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_c.so" to ""
+[85.488s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs
+[85.488s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg
+[85.488s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail
+[85.488s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_introspection_cpp.hpp
+[85.488s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/msg/detail/type_def__type_support.cpp
+[85.489s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv
+[85.489s] -- Up-to-date: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail
+[85.489s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_introspection_cpp.hpp
+[85.489s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__type_support.cpp
+[85.489s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_introspection_cpp.hpp
+[85.489s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__type_support.cpp
+[85.490s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_introspection_cpp.hpp
+[85.490s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topic_type__type_support.cpp
+[85.490s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__rosidl_typesupport_introspection_cpp.hpp
+[85.490s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_introspection_cpp.hpp
+[85.490s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__type_support.cpp
+[85.491s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_introspection_cpp.hpp
+[85.491s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_introspection_cpp.hpp
+[85.491s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__type_support.cpp
+[85.491s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__type_support.cpp
+[85.491s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__type_support.cpp
+[85.492s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_introspection_cpp.hpp
+[85.492s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_introspection_cpp.hpp
+[85.492s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__rosidl_typesupport_introspection_cpp.hpp
+[85.492s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param__type_support.cpp
+[85.493s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/publishers__type_support.cpp
+[85.493s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_introspection_cpp.hpp
+[85.493s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__type_support.cpp
+[85.493s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/has_param__type_support.cpp
+[85.494s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_type__type_support.cpp
+[85.494s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_node__type_support.cpp
+[85.494s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_introspection_cpp.hpp
+[85.494s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_introspection_cpp.hpp
+[85.495s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.cpp
+[85.495s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__type_support.cpp
+[85.495s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_introspection_cpp.hpp
+[85.495s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/interfaces__type_support.cpp
+[85.496s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__type_support.cpp
+[85.496s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_introspection_cpp.hpp
+[85.496s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/message_details__type_support.cpp
+[85.496s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_introspection_cpp.hpp
+[85.496s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_introspection_cpp.hpp
+[85.497s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_introspection_cpp.hpp
+[85.497s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_introspection_cpp.hpp
+[85.497s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_introspection_cpp.hpp
+[85.497s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_time__type_support.cpp
+[85.498s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_introspection_cpp.hpp
+[85.498s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_request_details__type_support.cpp
+[85.498s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_introspection_cpp.hpp
+[85.498s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__rosidl_typesupport_introspection_cpp.hpp
+[85.499s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/topics__type_support.cpp
+[85.499s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_introspection_cpp.hpp
+[85.499s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/service_response_details__type_support.cpp
+[85.499s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/node_details__type_support.cpp
+[85.500s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/services__type_support.cpp
+[85.500s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/get_param_names__type_support.cpp
+[85.500s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/include/rosapi_msgs/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_introspection_cpp.hpp
+[85.501s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_cpp.so
+[85.502s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[85.503s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_cpp.so
+[85.503s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_cpp.so" to ""
+[85.503s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/environment/pythonpath.sh
+[85.504s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/environment/pythonpath.dsv
+[85.504s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs-2.1.0-py3.10.egg-info
+[85.504s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs-2.1.0-py3.10.egg-info/SOURCES.txt
+[85.505s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs-2.1.0-py3.10.egg-info/dependency_links.txt
+[85.505s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs-2.1.0-py3.10.egg-info/PKG-INFO
+[85.505s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs-2.1.0-py3.10.egg-info/top_level.txt
+[85.506s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs
+[85.506s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/__init__.py
+[85.506s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[85.507s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg
+[85.507s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg/__init__.py
+[85.507s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg/_type_def_s.c
+[85.508s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg/_type_def.py
+[85.508s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[85.510s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv
+[85.510s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_action_servers.py
+[85.511s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_s.c
+[85.511s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_subscribers.py
+[85.512s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_for_type.py
+[85.512s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_subscribers_s.c
+[85.513s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_node_details_s.c
+[85.513s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topic_type_s.c
+[85.513s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_node_details.py
+[85.513s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topic_type.py
+[85.513s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/__init__.py
+[85.513s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_node_s.c
+[85.514s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_providers_s.c
+[85.514s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_set_param.py
+[85.514s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_services_for_type.py
+[85.514s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_interfaces.py
+[85.514s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_and_raw_types.py
+[85.515s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_services.py
+[85.515s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_request_details_s.c
+[85.515s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_response_details_s.c
+[85.515s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_node.py
+[85.515s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_action_servers_s.c
+[85.515s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_services_s.c
+[85.516s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_publishers.py
+[85.516s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_type.py
+[85.516s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_delete_param.py
+[85.516s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_ros_version.py
+[85.516s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_interfaces_s.c
+[85.517s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_message_details_s.c
+[85.517s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_nodes.py
+[85.517s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_set_param_s.c
+[85.517s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_type_s.c
+[85.517s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics.py
+[85.517s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_has_param.py
+[85.517s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_request_details.py
+[85.517s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_has_param_s.c
+[85.518s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_nodes_s.c
+[85.518s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_param_names.py
+[85.518s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_ros_version_s.c
+[85.518s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_for_type_s.c
+[85.518s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_providers.py
+[85.518s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_message_details.py
+[85.519s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_param_s.c
+[85.519s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_param.py
+[85.519s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_and_raw_types_s.c
+[85.519s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_delete_param_s.c
+[85.519s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_services_for_type_s.c
+[85.519s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_time_s.c
+[85.520s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_time.py
+[85.520s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_publishers_s.c
+[85.520s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_param_names_s.c
+[85.520s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_response_details.py
+[85.520s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[85.520s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[85.521s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[85.522s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/librosapi_msgs__rosidl_generator_py.so
+[85.522s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_c.c
+[85.628s] Listing '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs'...
+[85.628s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/__init__.py'...
+[85.628s] Listing '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg'...
+[85.628s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg/__init__.py'...
+[85.628s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/msg/_type_def.py'...
+[85.628s] Listing '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv'...
+[85.629s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/__init__.py'...
+[85.629s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_delete_param.py'...
+[85.629s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_action_servers.py'...
+[85.629s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_param.py'...
+[85.629s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_param_names.py'...
+[85.629s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_ros_version.py'...
+[85.629s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_get_time.py'...
+[85.629s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_has_param.py'...
+[85.630s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_interfaces.py'...
+[85.630s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_message_details.py'...
+[85.630s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_node_details.py'...
+[85.630s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_nodes.py'...
+[85.630s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_publishers.py'...
+[85.630s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_node.py'...
+[85.630s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_providers.py'...
+[85.630s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_request_details.py'...
+[85.631s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_response_details.py'...
+[85.631s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_service_type.py'...
+[85.631s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_services.py'...
+[85.631s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_services_for_type.py'...
+[85.631s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_set_param.py'...
+[85.631s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_subscribers.py'...
+[85.631s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topic_type.py'...
+[85.632s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics.py'...
+[85.632s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_and_raw_types.py'...
+[85.632s] Compiling '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/srv/_topics_for_type.py'...
+[85.637s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[85.638s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[85.639s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[85.640s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[85.640s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[85.641s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/local/lib/python3.10/dist-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[85.642s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_generator_py.so
+[85.643s] -- Set runtime path of "/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/lib/librosapi_msgs__rosidl_generator_py.so" to ""
+[85.643s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/msg/TypeDef.idl
+[85.643s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam.idl
+[85.644s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers.idl
+[85.644s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam.idl
+[85.645s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames.idl
+[85.645s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion.idl
+[85.645s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime.idl
+[85.646s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam.idl
+[85.646s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Interfaces.idl
+[85.647s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails.idl
+[85.647s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes.idl
+[85.647s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails.idl
+[85.648s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers.idl
+[85.648s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode.idl
+[85.649s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders.idl
+[85.649s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails.idl
+[85.650s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails.idl
+[85.650s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Services.idl
+[85.650s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType.idl
+[85.651s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType.idl
+[85.651s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam.idl
+[85.652s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers.idl
+[85.652s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Topics.idl
+[85.652s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes.idl
+[85.653s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType.idl
+[85.653s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType.idl
+[85.654s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/msg/TypeDef.msg
+[85.654s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam.srv
+[85.654s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam_Request.msg
+[85.655s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam_Response.msg
+[85.655s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers.srv
+[85.656s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers_Request.msg
+[85.656s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers_Response.msg
+[85.656s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam.srv
+[85.657s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam_Request.msg
+[85.657s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam_Response.msg
+[85.657s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames.srv
+[85.658s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames_Request.msg
+[85.658s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames_Response.msg
+[85.659s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion.srv
+[85.659s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion_Request.msg
+[85.659s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion_Response.msg
+[85.660s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime.srv
+[85.660s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime_Request.msg
+[85.661s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime_Response.msg
+[85.661s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam.srv
+[85.661s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam_Request.msg
+[85.662s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam_Response.msg
+[85.662s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Interfaces.srv
+[85.663s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Interfaces_Request.msg
+[85.663s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Interfaces_Response.msg
+[85.663s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails.srv
+[85.664s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails_Request.msg
+[85.664s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails_Response.msg
+[85.664s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes.srv
+[85.665s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes_Request.msg
+[85.665s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes_Response.msg
+[85.666s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails.srv
+[85.666s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails_Request.msg
+[85.667s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails_Response.msg
+[85.667s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers.srv
+[85.667s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers_Request.msg
+[85.668s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers_Response.msg
+[85.668s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode.srv
+[85.668s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode_Request.msg
+[85.669s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode_Response.msg
+[85.669s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders.srv
+[85.670s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders_Request.msg
+[85.670s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders_Response.msg
+[85.670s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails.srv
+[85.671s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails_Request.msg
+[85.671s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails_Response.msg
+[85.672s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails.srv
+[85.672s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails_Request.msg
+[85.673s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails_Response.msg
+[85.673s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Services.srv
+[85.673s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Services_Request.msg
+[85.674s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Services_Response.msg
+[85.674s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType.srv
+[85.675s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType_Request.msg
+[85.675s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType_Response.msg
+[85.675s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType.srv
+[85.676s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType_Request.msg
+[85.676s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType_Response.msg
+[85.677s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam.srv
+[85.677s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam_Request.msg
+[85.678s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam_Response.msg
+[85.678s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers.srv
+[85.678s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers_Request.msg
+[85.679s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers_Response.msg
+[85.679s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Topics.srv
+[85.679s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Topics_Request.msg
+[85.680s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/Topics_Response.msg
+[85.680s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes.srv
+[85.680s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes_Request.msg
+[85.681s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes_Response.msg
+[85.681s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType.srv
+[85.681s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType_Request.msg
+[85.682s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType_Response.msg
+[85.682s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType.srv
+[85.682s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType_Request.msg
+[85.683s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType_Response.msg
+[85.683s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/ament_index/resource_index/package_run_dependencies/rosapi_msgs
+[85.684s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/ament_index/resource_index/parent_prefix_path/rosapi_msgs
+[85.684s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/environment/ament_prefix_path.sh
+[85.684s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/environment/ament_prefix_path.dsv
+[85.685s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/environment/path.sh
+[85.685s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/environment/path.dsv
+[85.685s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/local_setup.bash
+[85.686s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/local_setup.sh
+[85.686s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/local_setup.zsh
+[85.686s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/local_setup.dsv
+[85.687s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/package.dsv
+[85.688s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/ament_index/resource_index/packages/rosapi_msgs
+[85.688s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_generator_cExport.cmake
+[85.688s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_generator_cExport-noconfig.cmake
+[85.688s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[85.689s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[85.689s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_generator_cppExport.cmake
+[85.690s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[85.690s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[85.690s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cExport.cmake
+[85.691s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[85.691s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cExport.cmake
+[85.691s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[85.692s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[85.692s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[85.693s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cppExport.cmake
+[85.693s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[85.693s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_generator_pyExport.cmake
+[85.694s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/export_rosapi_msgs__rosidl_generator_pyExport-noconfig.cmake
+[85.694s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/rosidl_cmake-extras.cmake
+[85.694s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[85.695s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[85.695s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[85.695s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[85.696s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[85.696s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[85.697s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgsConfig.cmake
+[85.697s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgsConfig-version.cmake
+[85.697s] -- Installing: /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/install/rosapi_msgs/share/rosapi_msgs/package.xml
+[85.701s] Invoked command in '/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/RosBridgeTest/ros2_test_ws/src/build/rosapi_msgs

@@ -22,3 +22,6 @@ git repo used; -branch ros2
 https://github.com/RobotWebTools/roslibjs/blob/ros2/build/roslib.js
 
 
+## nodes lifetimes,
+https://foxglove.dev/blog/how-to-use-ros2-lifecycle-nodes
+https://robotics.stackexchange.com/questions/102991/ros-2-how-to-start-and-stop-a-node-from-a-python-script

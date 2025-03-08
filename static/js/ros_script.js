@@ -31,7 +31,7 @@
   ros.connect('ws://localhost:9090');
 
 
-  
+
   // Publishing a Topic
   // ------------------
 

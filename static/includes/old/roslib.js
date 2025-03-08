@@ -2705,17 +2705,17 @@ var ROSLIB = this.ROSLIB || {
 var assign = require('object-assign');
 
 // Add core components
-assign(ROSLIB, require('./core'));
+assign(ROSLIB, require('./core.js'));
 
-assign(ROSLIB, require('./ros2action'));
+assign(ROSLIB, require('./ros2action.js'));
 
-assign(ROSLIB, require('./actionlib'));
+assign(ROSLIB, require('./actionlib.js'));
 
-assign(ROSLIB, require('./math'));
+assign(ROSLIB, require('./math.js'));
 
-assign(ROSLIB, require('./tf'));
+assign(ROSLIB, require('./tf.js'));
 
-assign(ROSLIB, require('./urdf'));
+assign(ROSLIB, require('./urdf.js'));
 
 
 
@@ -2723,7 +2723,7 @@ module.exports = ROSLIB;
 
 },{"./actionlib":14,"./core":23,"./math":28,"./ros2action":34,"./tf":36,"./urdf":48,"object-assign":3}],9:[function(require,module,exports){
 (function (global){(function (){
-global.ROSLIB = require('./RosLib');
+global.ROSLIB = require('./RosLib.js');
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"./RosLib":8}],10:[function(require,module,exports){
 /**
@@ -2731,8 +2731,8 @@ global.ROSLIB = require('./RosLib');
  * @author Russell Toris - rctoris@wpi.edu
  */
 
-var Topic = require('../core/Topic');
-var Message = require('../core/Message');
+var Topic = require('../core/Topic.js');
+var Message = require('../core/Message.js');
 var EventEmitter2 = require('eventemitter2').EventEmitter2;
 
 /**
@@ -2893,8 +2893,8 @@ module.exports = ActionClient;
  * @author Russell Toris - rctoris@wpi.edu
  */
 
-var Topic = require('../core/Topic');
-var Message = require('../core/Message');
+var Topic = require('../core/Topic.js');
+var Message = require('../core/Message.js');
 var EventEmitter2 = require('eventemitter2').EventEmitter2;
 
 /**
@@ -2986,7 +2986,7 @@ module.exports = ActionListener;
  * @author Russell Toris - rctoris@wpi.edu
  */
 
-var Message = require('../core/Message');
+var Message = require('../core/Message.js');
 var EventEmitter2 = require('eventemitter2').EventEmitter2;
 
 /**
@@ -3085,8 +3085,8 @@ module.exports = Goal;
  * @author Laura Lindzey - lindzey@gmail.com
  */
 
-var Topic = require('../core/Topic');
-var Message = require('../core/Message');
+var Topic = require('../core/Topic.js');
+var Message = require('../core/Message.js');
 var EventEmitter2 = require('eventemitter2').EventEmitter2;
 
 /**
@@ -3340,14 +3340,14 @@ module.exports = SimpleActionServer;
 
 
 },{"../core/Message":15,"../core/Topic":22,"eventemitter2":2}],14:[function(require,module,exports){
-var Ros = require('../core/Ros');
-var mixin = require('../mixin');
+var Ros = require('../core/Ros.js');
+var mixin = require('../mixin.js');
 
 var action = module.exports = {
-    ActionClient: require('./ActionClient'),
-    ActionListener: require('./ActionListener'),
-    Goal: require('./Goal'),
-    SimpleActionServer: require('./SimpleActionServer')
+    ActionClient: require('./ActionClient.js'),
+    ActionListener: require('./ActionListener.js'),
+    Goal: require('./Goal.js'),
+    SimpleActionServer: require('./SimpleActionServer.js')
 };
 
 mixin(Ros, ['ActionClient', 'SimpleActionServer'], action);
@@ -3380,8 +3380,8 @@ module.exports = Message;
  * @author Brandon Alexander - baalexander@gmail.com
  */
 
-var Service = require('./Service');
-var ServiceRequest = require('./ServiceRequest');
+var Service = require('./Service.js');
+var ServiceRequest = require('./ServiceRequest.js');
 
 /**
  * A ROS parameter.
@@ -3483,11 +3483,11 @@ module.exports = Param;
  */
 
 var WebSocket = require('ws');
-var WorkerSocket = require('../util/workerSocket');
+var WorkerSocket = require('../util/workerSocket.js');
 var socketAdapter = require('./SocketAdapter.js');
 
-var Service = require('./Service');
-var ServiceRequest = require('./ServiceRequest');
+var Service = require('./Service.js');
+var ServiceRequest = require('./ServiceRequest.js');
 
 var assign = require('object-assign');
 var EventEmitter2 = require('eventemitter2').EventEmitter2;
@@ -5365,10 +5365,10 @@ module.exports = Vector3;
 
 },{}],28:[function(require,module,exports){
 module.exports = {
-    Pose: require('./Pose'),
-    Quaternion: require('./Quaternion'),
-    Transform: require('./Transform'),
-    Vector3: require('./Vector3')
+    Pose: require('./Pose.js'),
+    Quaternion: require('./Quaternion.js'),
+    Transform: require('./Transform.js'),
+    Vector3: require('./Vector3.js')
 };
 
 },{"./Pose":24,"./Quaternion":25,"./Transform":26,"./Vector3":27}],29:[function(require,module,exports){
@@ -6398,16 +6398,16 @@ module.exports = UrdfVisual;
 
 },{"../math/Pose":24,"../math/Quaternion":25,"../math/Vector3":27,"./UrdfBox":37,"./UrdfCylinder":39,"./UrdfMaterial":42,"./UrdfMesh":43,"./UrdfSphere":45}],48:[function(require,module,exports){
 module.exports = require('object-assign')({
-    UrdfBox: require('./UrdfBox'),
-    UrdfColor: require('./UrdfColor'),
-    UrdfCylinder: require('./UrdfCylinder'),
-    UrdfLink: require('./UrdfLink'),
-    UrdfMaterial: require('./UrdfMaterial'),
-    UrdfMesh: require('./UrdfMesh'),
-    UrdfModel: require('./UrdfModel'),
-    UrdfSphere: require('./UrdfSphere'),
-    UrdfVisual: require('./UrdfVisual')
-}, require('./UrdfTypes'));
+    UrdfBox: require('./UrdfBox.js'),
+    UrdfColor: require('./UrdfColor.js'),
+    UrdfCylinder: require('./UrdfCylinder.js'),
+    UrdfLink: require('./UrdfLink.js'),
+    UrdfMaterial: require('./UrdfMaterial.js'),
+    UrdfMesh: require('./UrdfMesh.js'),
+    UrdfModel: require('./UrdfModel.js'),
+    UrdfSphere: require('./UrdfSphere.js'),
+    UrdfVisual: require('./UrdfVisual.js')
+}, require('./UrdfTypes.js'));
 
 },{"./UrdfBox":37,"./UrdfColor":38,"./UrdfCylinder":39,"./UrdfLink":41,"./UrdfMaterial":42,"./UrdfMesh":43,"./UrdfModel":44,"./UrdfSphere":45,"./UrdfTypes":46,"./UrdfVisual":47,"object-assign":3}],49:[function(require,module,exports){
 'use strict';
